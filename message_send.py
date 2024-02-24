@@ -125,8 +125,8 @@ class MessageSend:
             'Content-Type': "application/json"
         }
         data = {
-            "msgtype": "markdown",
-            "markdown": {
+            "msgtype": "text",
+            "text": {
                 "content": content
             }
         }
